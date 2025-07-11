@@ -44,6 +44,6 @@ if __name__ == '__main__':
     print(id_result_1)
     print(type(id_result_1).__name__)
 
-    id_result_2 = generate(id_1, '', utility_exception=Exception, as_string=True)
+    id_result_2 = generate(id_1, utility_exception=Exception, as_string=True)
     print(id_result_2)
     print(type(id_result_2).__name__)
